@@ -8,27 +8,15 @@ Python (>= 3.6)
 Pandas (>= 1.0.0)
 Matplotlib (>= 3.0.0)
 Seaborn (>= 0.9.0)
+
+
+
 You can install them using the following command:
 
-bash
-Copy code
 pip install pandas matplotlib seaborn
 Project Structure
-The project is structured as follows:
 
-graphql
-Copy code
-IPL_Analysis_Project/
-│
-├── data/
-│   ├── matches.csv          # Dataset containing match information
-│   ├── players.csv          # Dataset containing player information
-│   └── ...
-│
-├── ipl_analysis.ipynb       # Jupyter Notebook for IPL analysis
-├── ipl_analysis.py          # Python script for IPL analysis
-├── ipl_logo.png             # IPL logo for README
-└── README.md                # Project README file
+
 Analysis
 The ipl_analysis.ipynb Jupyter Notebook (or ipl_analysis.py Python script) comprises code for conducting the IPL analysis. It covers various facets of the IPL, including:
 
